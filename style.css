@@ -53,7 +53,7 @@ a {
     font-weight: 900;
 }
 
-#signUpButton {
+.signUpButton {
     width: 100px;
     border-radius: 6px;
     background-color: #3882F6;
@@ -101,3 +101,41 @@ a {
     border-radius: 10px;
 }
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    width: 680px;
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    width: 700px;
+    height: 80px;
+    background-color: #3882F6;
+}
