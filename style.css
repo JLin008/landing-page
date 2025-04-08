@@ -1,5 +1,5 @@
-* {
-    border: 1px solid red;
+body {
+    margin: 0;
 }
 
 .header{
@@ -46,6 +46,7 @@ a {
     width: 280px;
     height: 180px;
     justify-content: center;
+    gap: 6px;
 }
 
 #hero-title {
@@ -58,6 +59,7 @@ a {
     border-radius: 6px;
     background-color: #3882F6;
     color: white;
+    border: 1px solid white;
 }
 
 #hero-image {
@@ -106,12 +108,12 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 100px;
+    background-color: #E5E7EB;
 }
 
 .quote-container {
     width: 680px;
-    padding: 100px;
-    background-color: #E5E7EB;
 }
 
 .quote {
@@ -132,10 +134,35 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 80px;
 }
 
 .cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 700px;
     height: 80px;
     background-color: #3882F6;
+}
+
+.cta {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.cta-description {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 25px;
+}
+.copyright {
+    color: white;
 }
